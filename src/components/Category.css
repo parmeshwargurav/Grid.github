@@ -1,0 +1,56 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.filters .heading {
+    padding: 20px 0;
+}
+
+.filters .heading h3 {
+    margin-bottom: 10px;
+    font-family: Raleway,sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -.6px
+}
+
+.filters .heading p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.filters .heading p i {
+    margin-right: 5px;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tabs .btn {
+    border: 1px solid #0096ff;
+    outline: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 30px;
+    color: #0096ff;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tabs .active {
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    color: #fff;
+}
+
+.tabs .btn:hover {
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    color: #fff;
+}
